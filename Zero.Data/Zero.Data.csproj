@@ -31,8 +31,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="DH.NCode" Version="3.7.2024.820" />
-    <PackageReference Include="DH.NStardust" Version="3.7.2024.820" />
+    <PackageReference Include="DH.NCode" Version="3.7.2024.826-beta0401" />
+    <PackageReference Include="DH.NStardust" Version="3.7.2024.826-beta0214" />
   </ItemGroup>
 
   <ItemGroup>
