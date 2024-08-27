@@ -18,7 +18,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DH.Extensions.Hosting.AgentService" Version="3.7.2024.821-beta0142" />
+    <PackageReference Include="DH.Extensions.Hosting.AgentService" Version="3.7.2024.827-beta0707" />
     <PackageReference Include="DH.NStardust.Extensions" Version="3.7.2024.826-beta0214" />
   </ItemGroup>
 

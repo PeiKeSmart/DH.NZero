@@ -22,7 +22,7 @@
   <ItemGroup>
     <PackageReference Include="DH.NRedis" Version="3.7.2024.826-beta0225" />
     <PackageReference Include="DH.NStardust" Version="3.7.2024.826-beta0214" />
-    <PackageReference Include="DH.NCode" Version="3.7.2024.826-beta0401" />
+    <PackageReference Include="DH.NCode" Version="3.7.2024.827-beta0645" />
   </ItemGroup>
 
   <ItemGroup>
