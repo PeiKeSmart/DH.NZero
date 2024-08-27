@@ -20,14 +20,17 @@
     <Compile Remove="Interfaces\**" />
     <Compile Remove="Log\**" />
     <Compile Remove="Models\**" />
+    <Compile Remove="Nodes\Config\**" />
     <EmbeddedResource Remove="Config\**" />
     <EmbeddedResource Remove="Interfaces\**" />
     <EmbeddedResource Remove="Log\**" />
     <EmbeddedResource Remove="Models\**" />
+    <EmbeddedResource Remove="Nodes\Config\**" />
     <None Remove="Config\**" />
     <None Remove="Interfaces\**" />
     <None Remove="Log\**" />
     <None Remove="Models\**" />
+    <None Remove="Nodes\Config\**" />
   </ItemGroup>
 
   <ItemGroup>
