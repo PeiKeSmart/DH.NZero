@@ -29,7 +29,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2739.15" />
     <PackageReference Include="DH.NStardust" Version="3.7.2024.907-beta0153" />
-    <PackageReference Include="DH.NCode" Version="3.7.2024.907-beta0117" />
+    <PackageReference Include="DH.NCode" Version="3.7.2024.911-beta0833" />
     <PackageReference Include="System.Speech" Version="8.0.0" />
   </ItemGroup>
 
