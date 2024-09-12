@@ -21,10 +21,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DH.NCube" Version="3.7.2024.911-beta0840" />
-    <PackageReference Include="DH.NRedis" Version="3.8.2024.907-beta0155" />
-    <PackageReference Include="DH.NRedis.Extensions" Version="3.8.2024.907-beta0155" />
-    <PackageReference Include="DH.NStardust.Extensions" Version="3.7.2024.907-beta0153" />
+    <PackageReference Include="DH.NCube" Version="3.7.2024.911-beta1532" />
+    <PackageReference Include="DH.NRedis" Version="3.8.2024.911-beta1434" />
+    <PackageReference Include="DH.NRedis.Extensions" Version="3.8.2024.911-beta1434" />
+    <PackageReference Include="DH.NStardust.Extensions" Version="3.7.2024.911-beta1335" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.7.3" />
   </ItemGroup>
 
