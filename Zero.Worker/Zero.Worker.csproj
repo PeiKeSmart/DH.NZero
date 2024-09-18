@@ -20,11 +20,11 @@
 
   <ItemGroup>
     <PackageReference Include="DH.NAntJob.Extensions" Version="3.7.2024.911-beta1521" />
-    <PackageReference Include="DH.NRedis.Extensions" Version="3.8.2024.911-beta1434" />
-    <PackageReference Include="DH.NMQTT" Version="3.7.2024.911-beta1601" />
-    <PackageReference Include="DH.NRedis" Version="3.8.2024.911-beta1434" />
-    <PackageReference Include="DH.NRocketMQ" Version="3.7.2024.911-beta0856" />
-    <PackageReference Include="DH.NStardust.Extensions" Version="3.7.2024.911-beta1335" />
+    <PackageReference Include="DH.NRedis.Extensions" Version="3.8.2024.918-beta0923" />
+    <PackageReference Include="DH.NMQTT" Version="3.7.2024.918-beta1047" />
+    <PackageReference Include="DH.NRedis" Version="3.8.2024.918-beta0917" />
+    <PackageReference Include="DH.NRocketMQ" Version="3.7.2024.912-beta0149" />
+    <PackageReference Include="DH.NStardust.Extensions" Version="3.7.2024.918-beta0838" />
   </ItemGroup>
 
   <ItemGroup>

@@ -19,10 +19,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DH.NAgent" Version="3.7.2024.911-beta1304" />
-    <PackageReference Include="DH.NRedis" Version="3.8.2024.911-beta1434" />
-    <PackageReference Include="DH.NStardust" Version="3.7.2024.911-beta1335" />
-    <PackageReference Include="DH.NCode" Version="3.7.2024.911-beta1156" />
+    <PackageReference Include="DH.NAgent" Version="3.7.2024.918-beta0832" />
+    <PackageReference Include="DH.NRedis" Version="3.8.2024.918-beta0917" />
+    <PackageReference Include="DH.NStardust" Version="3.7.2024.918-beta0838" />
+    <PackageReference Include="DH.NCode" Version="3.7.2024.918-beta0722" />
   </ItemGroup>
 
   <ItemGroup>
