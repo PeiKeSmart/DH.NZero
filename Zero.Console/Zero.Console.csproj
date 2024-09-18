@@ -26,8 +26,8 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="DH.NMQTT" Version="3.7.2024.918-beta1047" />
-    <PackageReference Include="DH.NRedis" Version="3.8.2024.918-beta0917" />
-    <PackageReference Include="DH.NRocketMQ" Version="3.7.2024.912-beta0149" />
+    <PackageReference Include="DH.NRedis" Version="3.8.2024.918-beta1131" />
+    <PackageReference Include="DH.NRocketMQ" Version="3.7.2024.918-beta1055" />
     <PackageReference Include="DH.NStardust" Version="3.7.2024.918-beta0838" />
   </ItemGroup>
 

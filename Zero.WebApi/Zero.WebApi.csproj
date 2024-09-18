@@ -22,8 +22,8 @@
 
   <ItemGroup>
     <PackageReference Include="DH.NCube" Version="3.7.2024.918-beta0908" />
-    <PackageReference Include="DH.NRedis" Version="3.8.2024.918-beta0917" />
-    <PackageReference Include="DH.NRedis.Extensions" Version="3.8.2024.918-beta0923" />
+    <PackageReference Include="DH.NRedis" Version="3.8.2024.918-beta1131" />
+    <PackageReference Include="DH.NRedis.Extensions" Version="3.8.2024.918-beta1131" />
     <PackageReference Include="DH.NStardust.Extensions" Version="3.7.2024.918-beta0838" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.7.3" />
   </ItemGroup>
