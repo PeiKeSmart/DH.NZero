@@ -28,10 +28,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="DH.NAntJob" Version="3.7.2024.918-beta1142" />
-    <PackageReference Include="DH.NRedis" Version="3.8.2024.918-beta1131" />
-    <PackageReference Include="DH.NAntJob.Extensions" Version="3.7.2024.918-beta1142" />
-    <PackageReference Include="DH.NCode" Version="3.7.2024.918-beta0722" />
+    <PackageReference Include="DH.NAntJob" Version="3.7.2024.920-beta0142" />
+    <PackageReference Include="DH.NRedis" Version="3.8.2024.920-beta0130" />
+    <PackageReference Include="DH.NAntJob.Extensions" Version="3.7.2024.920-beta0142" />
+    <PackageReference Include="DH.NCode" Version="3.7.2024.920-beta0117" />
   </ItemGroup>
 
   <ItemGroup>
