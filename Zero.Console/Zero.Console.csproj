@@ -25,10 +25,10 @@
     <Using Include="NewLife.Reflection" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DH.NMQTT" Version="3.7.2024.920-beta0134" />
-    <PackageReference Include="DH.NRedis" Version="3.8.2024.920-beta0130" />
-    <PackageReference Include="DH.NRocketMQ" Version="3.7.2024.920-beta0156" />
-    <PackageReference Include="DH.NStardust" Version="3.7.2024.918-beta0838" />
+    <PackageReference Include="DH.NMQTT" Version="3.91.2024.1008-beta0856" />
+    <PackageReference Include="DH.NRedis" Version="3.91.2024.1008-beta0919" />
+    <PackageReference Include="DH.NRocketMQ" Version="3.9.2024.9210003" />
+    <PackageReference Include="DH.NStardust" Version="3.91.2024.1008-beta0339" />
   </ItemGroup>
 
 </Project>
