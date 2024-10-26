@@ -10,6 +10,7 @@ using Zero.HttpServer;
 // 启用控制台日志，拦截所有异常
 XTrace.UseConsole();
 
+// 初始化对象容器，提供依赖注入能力
 var services = ObjectContainer.Current;
 
 // 配置星尘。自动读取配置文件 config/star.config 中的服务器地址
@@ -37,7 +38,7 @@ server.Map("/my", new MyHttpHandler());
 server.Start();
 
 // 发布到星尘注册中心
-await star.Service?.RegisterAsync("MyHttpServer", $"http://*:{server.Port}");
+await star.Service?.RegisterAsync(star.AppId, $"http://*:{server.Port}");
 
 // 异步阻塞，友好退出
 var host = services.BuildHost();

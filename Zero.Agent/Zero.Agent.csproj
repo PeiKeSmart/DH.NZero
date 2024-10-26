@@ -5,8 +5,8 @@
     <TargetFramework>net8.0</TargetFramework>
     <AssemblyTitle>系统守护服务</AssemblyTitle>
     <Description>数据处理、定时任务、MQ生产消费、系统监控等超长独立工作的后台任务，常安装为Windows服务，Linux上需要sudo才能安装为守护进程随系统启动</Description>
-    <Company>湖北登灏科技有限公司</Company>
-    <Copyright>©2020-2024 湖北登灏科技有限公司</Copyright>
+    <Company>新生命开发团队</Company>
+    <Copyright>©2002-2024 NewLife</Copyright>
     <VersionPrefix>1.0</VersionPrefix>
     <VersionSuffix>$([System.DateTime]::Now.ToString(`yyyy.MMdd`))</VersionSuffix>
     <Version>$(VersionPrefix).$(VersionSuffix)</Version>
@@ -23,12 +23,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="DH.NAgent" Version="3.91.2024.1008-beta0826" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Zero.Core\Zero.Core.csproj" />
-    <ProjectReference Include="..\Zero.Data\Zero.Data.csproj" />
+    <PackageReference Include="NewLife.Agent" Version="10.9.2024.902" />
+    <PackageReference Include="NewLife.Core" Version="11.0.2024.1001" />
+    <PackageReference Include="NewLife.Stardust" Version="3.1.2024.1004" />
+    <PackageReference Include="NewLife.XCode" Version="11.16.2024.1005" />
   </ItemGroup>
 
 </Project>

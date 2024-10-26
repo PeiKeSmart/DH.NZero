@@ -5,8 +5,8 @@
     <TargetFramework>net8.0</TargetFramework>
     <AssemblyTitle>大数据计算</AssemblyTitle>
     <Description>蚂蚁调度系统子程序，编写数据处理等业务逻辑，连接蚂蚁调度中心，拉取作业任务来执行</Description>
-    <Company>湖北登灏科技有限公司</Company>
-    <Copyright>©2020-2024 湖北登灏科技有限公司</Copyright>
+    <Company>新生命开发团队</Company>
+    <Copyright>©2002-2024 NewLife</Copyright>
     <VersionPrefix>1.0</VersionPrefix>
     <VersionSuffix>$([System.DateTime]::Now.ToString(`yyyy.MMdd`))</VersionSuffix>
     <Version>$(VersionPrefix).$(VersionSuffix)</Version>
@@ -28,10 +28,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="DH.NAntJob" Version="3.7.2024.1008-beta0625" />
-    <PackageReference Include="DH.NRedis" Version="3.91.2024.1008-beta0919" />
-    <PackageReference Include="DH.NAntJob.Extensions" Version="3.7.2024.1008-beta0625" />
-    <PackageReference Include="DH.NCode" Version="3.91.2024.1008-beta0824" />
+    <PackageReference Include="NewLife.AntJob" Version="4.0.2024.904" />
+    <PackageReference Include="NewLife.AntJob.Extensions" Version="3.4.2024.904" />
+    <PackageReference Include="NewLife.Core" Version="11.0.2024.1001" />
+    <PackageReference Include="NewLife.Redis" Version="6.0.2024.1006" />
+    <PackageReference Include="NewLife.XCode" Version="11.16.2024.1005" />
   </ItemGroup>
 
   <ItemGroup>

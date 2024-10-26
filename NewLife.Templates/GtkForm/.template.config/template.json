@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "NewLife",
+  "classifications": [ "NewLife", "Desktop" ],
+  "name": "NewLife GtkForm",
+  "identity": "NewLife.GtkForm",
+  "shortName": "gtkform",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "Zero.GtkForm",
+  "preferNameDirectory": true
+}

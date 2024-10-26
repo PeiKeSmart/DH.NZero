@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "NewLife",
+  "classifications": [ "NewLife", "Console" ],
+  "name": "NewLife HttpServer",
+  "identity": "NewLife.HttpServer",
+  "shortName": "http",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "Zero.HttpServer",
+  "preferNameDirectory": true
+}

@@ -1,0 +1,100 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>NewLife.Templates</PackageId>
+    <Title>新生命模版包</Title>
+    <Authors>新生命团队</Authors>
+    <Description>新生命各个开源项目的项目模版包，包括XCode、魔方、星尘、网络库、Agent服务、RPC、MQTT、RocketMQ等</Description>
+    <PackageTags>NewLife;新生命;X组件;XCode;Cube;魔方;Stardust;星尘;AntJob;蚂蚁调度;Console;Web;Service;dotnet-new;templates</PackageTags>
+    <PackageProjectUrl>https://newlifex.com</PackageProjectUrl>
+    <VersionPrefix>1.0</VersionPrefix>
+    <VersionSuffix>$([System.DateTime]::Now.ToString(`yyyy.MMdd`))</VersionSuffix>
+    <PackageVersion>$(VersionPrefix).$(VersionSuffix)</PackageVersion>
+    <OutputPath>..\Bin</OutputPath>
+
+    <PackageType>Template</PackageType>
+    <TargetFrameworks>net45;net461;netstandard2.0;netstandard2.1</TargetFrameworks>
+    <PackageIcon>leaf.png</PackageIcon>
+    <RepositoryUrl>https://github.com/NewLifeX/NewLife.Zero</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+    <PackageReadmeFile>README.MD</PackageReadmeFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <LocalizeTemplates>false</LocalizeTemplates>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.TemplateEngine.Tasks" Version="*" PrivateAssets="all" IsImplicitlyDefined="true" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="..\Zero.Console\**\*" Link=".\Console\" PackagePath="content\Console\" Exclude="..\Zero.Console\**\bin\**;..\Zero.Console\**\obj\**" />
+    <Content Include="Console\**\*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Zero.Worker\**\*" Link=".\Worker\" PackagePath="content\Worker\" Exclude="..\Zero.Worker\**\bin\**;..\Zero.Worker\**\obj\**" />
+    <Content Include="Worker\**\*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Zero.Web\**\*" Link=".\Web\" PackagePath="content\Web\" Exclude="..\Zero.Web\**\bin\**;..\Zero.Web\**\obj\**" />
+    <Content Include="Web\**\*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Zero.WebApi\**\*" Link=".\WebApi\" PackagePath="content\WebApi\" Exclude="..\Zero.WebApi\**\bin\**;..\Zero.WebApi\**\obj\**" />
+    <Content Include="WebApi\**\*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Zero.Agent\**\*" Link=".\Service\" PackagePath="content\Service\" Exclude="..\Zero.Agent\**\bin\**;..\Zero.Agent\**\obj\**" />
+    <Content Include="Service\**\*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Zero.AntJob\**\*" Link=".\AntJob\" PackagePath="content\AntJob\" Exclude="..\Zero.AntJob\**\bin\**;..\Zero.AntJob\**\obj\**" />
+    <Content Include="AntJob\**\*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Zero.TcpServer\**\*" Link=".\NetServer\" PackagePath="content\NetServer\" Exclude="..\Zero.TcpServer\**\bin\**;..\Zero.TcpServer\**\obj\**" />
+    <Content Include="NetServer\**\*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Zero.HttpServer\**\*" Link=".\HttpServer\" PackagePath="content\HttpServer\" Exclude="..\Zero.HttpServer\**\bin\**;..\Zero.HttpServer\**\obj\**" />
+    <Content Include="HttpServer\**\*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Zero.RpcServer\**\*" Link=".\RpcServer\" PackagePath="content\RpcServer\" Exclude="..\Zero.RpcServer\**\bin\**;..\Zero.RpcServer\**\obj\**" />
+    <Content Include="RpcServer\**\*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Zero.WebSocketServer\**\*" Link=".\WebSocket\" PackagePath="content\WebSocket\" Exclude="..\Zero.WebSocketServer\**\bin\**;..\Zero.WebSocketServer\**\obj\**" />
+    <Content Include="WebSocket\**\*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Zero.Client\**\*" Link=".\Client\" PackagePath="content\Client\" Exclude="..\Zero.Client\**\bin\**;..\Zero.Client\**\obj\**" />
+    <Content Include="Client\**\*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Zero.Desktop\**\*" Link=".\WinForm\" PackagePath="content\WinForm\" Exclude="..\Zero.Desktop\**\bin\**;..\Zero.Desktop\**\obj\**" />
+    <Content Include="WinForm\**\*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Zero.GtkForm\**\*" Link=".\GtkForm\" PackagePath="content\GtkForm\" Exclude="..\Zero.GtkForm\**\bin\**;..\Zero.GtkForm\**\obj\**" />
+    <Content Include="GtkForm\**\*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Zero.WebView\**\*" Link=".\WebView\" PackagePath="content\WebView\" Exclude="..\Zero.WebView\**\bin\**;..\Zero.WebView\**\obj\**" />
+    <Content Include="WebView\**\*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\README.MD" Pack="true" PackagePath="" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\Doc\leaf.png" Link="leaf.png" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "NewLife",
+  "classifications": [ "NewLife", "Worker" ],
+  "name": "NewLife Worker",
+  "identity": "NewLife.Worker",
+  "shortName": "nworker",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "Zero.Worker",
+  "preferNameDirectory": true
+}

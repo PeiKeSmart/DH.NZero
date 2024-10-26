@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "NewLife",
+  "classifications": [ "NewLife", "Windows", "WinForm", "Desktop" ],
+  "name": "NewLife WebView",
+  "identity": "NewLife.WebView",
+  "shortName": "webview",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "Zero.WebView",
+  "preferNameDirectory": true
+}

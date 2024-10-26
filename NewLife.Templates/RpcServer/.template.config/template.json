@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "NewLife",
+  "classifications": [ "NewLife", "Console" ],
+  "name": "NewLife RpcServer",
+  "identity": "NewLife.RpcServer",
+  "shortName": "rpc",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "Zero.RpcServer",
+  "preferNameDirectory": true
+}

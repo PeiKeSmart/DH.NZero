@@ -5,8 +5,8 @@
     <TargetFramework>net8.0</TargetFramework>
     <AssemblyTitle>Tcp网络服务器</AssemblyTitle>
     <Description>高性能Tcp网络服务器，单机最高400万连接，可用于建立各种协议的网络服务器</Description>
-    <Company>湖北登灏科技有限公司</Company>
-    <Copyright>©2020-2024 湖北登灏科技有限公司</Copyright>
+    <Company>新生命开发团队</Company>
+    <Copyright>©2002-2024 NewLife</Copyright>
     <VersionPrefix>1.0</VersionPrefix>
     <VersionSuffix>$([System.DateTime]::Now.ToString(`yyyy.MMdd`))</VersionSuffix>
     <Version>$(VersionPrefix).$(VersionSuffix)</Version>
@@ -20,14 +20,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DH.NRedis" Version="3.91.2024.1008-beta0919" />
-    <PackageReference Include="DH.NStardust" Version="3.91.2024.1008-beta0339" />
-    <PackageReference Include="DH.NCode" Version="3.91.2024.1008-beta0824" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Zero.Core\Zero.Core.csproj" />
-    <ProjectReference Include="..\Zero.Data\Zero.Data.csproj" />
+    <PackageReference Include="NewLife.Core" Version="11.0.2024.1001" />
+    <PackageReference Include="NewLife.Redis" Version="6.0.2024.1006" />
+    <PackageReference Include="NewLife.Stardust" Version="3.1.2024.1004" />
+    <PackageReference Include="NewLife.XCode" Version="11.16.2024.1005" />
   </ItemGroup>
 
 </Project>

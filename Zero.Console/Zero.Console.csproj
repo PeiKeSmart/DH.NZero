@@ -5,8 +5,8 @@
     <TargetFramework>net8.0</TargetFramework>
     <AssemblyTitle>应用后台任务</AssemblyTitle>
     <Description>数据处理、定时任务、MQ生产消费、系统监控等超长独立工作的后台任务</Description>
-    <Company>湖北登灏科技有限公司</Company>
-    <Copyright>©2020-2024 湖北登灏科技有限公司</Copyright>
+    <Company>新生命开发团队</Company>
+    <Copyright>©2002-2024 NewLife</Copyright>
     <VersionPrefix>1.0</VersionPrefix>
     <VersionSuffix>$([System.DateTime]::Now.ToString(`yyyy.MMdd`))</VersionSuffix>
     <Version>$(VersionPrefix).$(VersionSuffix)</Version>
@@ -25,10 +25,10 @@
     <Using Include="NewLife.Reflection" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DH.NMQTT" Version="3.91.2024.1008-beta0856" />
-    <PackageReference Include="DH.NRedis" Version="3.91.2024.1008-beta0919" />
-    <PackageReference Include="DH.NRocketMQ" Version="3.9.2024.9210003" />
-    <PackageReference Include="DH.NStardust" Version="3.91.2024.1008-beta0339" />
+    <PackageReference Include="NewLife.MQTT" Version="2.0.2024.708" />
+    <PackageReference Include="NewLife.Redis" Version="6.0.2024.1006" />
+    <PackageReference Include="NewLife.RocketMQ" Version="2.6.2024.1004" />
+    <PackageReference Include="NewLife.Stardust" Version="3.1.2024.1004" />
   </ItemGroup>
 
 </Project>

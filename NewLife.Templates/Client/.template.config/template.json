@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "NewLife",
+  "classifications": [ "NewLife", "Console", "IoT" ],
+  "name": "NewLife Client",
+  "identity": "NewLife.Client",
+  "shortName": "client",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "Zero.Client",
+  "preferNameDirectory": true
+}
