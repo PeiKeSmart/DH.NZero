@@ -31,7 +31,7 @@ var provider = services.BuildServiceProvider();
 // 实例化网络服务端，指定端口，同时在Tcp/Udp/IPv4/IPv6上监听
 var server = new MyNetServer
 {
-    Port = 12345,
+    Port = 1883,
     ServiceProvider = provider,
 
     Log = XTrace.Log,
@@ -52,7 +52,7 @@ server.Start();
 star?.Service?.Register(star.AppId, () => $"tcp://*:{server.Port},udp://*:{server.Port}");
 
 // 客户端测试，非服务端代码
-_ = Task.Run(ClientTest);
+//_ = Task.Run(ClientTest);
 
 // 阻塞，等待友好退出
 var host = services.BuildHost();
@@ -63,7 +63,7 @@ async void ClientTest()
     await Task.Delay(1_000);
 
     var client = new TcpClient();
-    await client.ConnectAsync("127.0.0.1", 12345);
+    await client.ConnectAsync("127.0.0.1", 1883);
     var ns = client.GetStream();
 
     // 接收服务端握手
