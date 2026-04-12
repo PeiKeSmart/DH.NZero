@@ -21,6 +21,7 @@
   <ItemGroup>
     <PackageReference Include="NewLife.Cube.Core" Version="6.10.2026.404" />
     <PackageReference Include="NewLife.Redis" Version="6.5.2026.403" />
+    <PackageReference Include="NewLife.Remoting.Extensions" Version="3.0.2024.1101" />
     <PackageReference Include="NewLife.Stardust.Extensions" Version="3.7.2026.403" />
   </ItemGroup>
 
@@ -30,6 +31,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\Nodes\View\" />
     <Folder Include="Areas\Projects\Controllers\" />
   </ItemGroup>
 
