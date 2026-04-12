@@ -1,12 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <AssemblyTitle>Web管理平台</AssemblyTitle>
     <Description>零代数据管理平台，基于魔方，快速开发各种管理后台</Description>
-    <Company>湖北登灏科技有限公司</Company>
-    <Copyright>©2020-2025 湖北登灏科技有限公司</Copyright>
-    <VersionPrefix>4.22</VersionPrefix>
+    <Company>新生命开发团队</Company>
+    <Copyright>©2002-2025 NewLife</Copyright>
+    <VersionPrefix>1.0</VersionPrefix>
     <VersionSuffix>$([System.DateTime]::Now.ToString(`yyyy.MMdd`))</VersionSuffix>
     <Version>$(VersionPrefix).$(VersionSuffix)</Version>
     <FileVersion>$(Version)</FileVersion>
@@ -19,10 +19,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NewLife.Cube.Core" Version="6.10.2026.404" />
-    <PackageReference Include="NewLife.Redis" Version="6.5.2026.403" />
-    <PackageReference Include="NewLife.Remoting.Extensions" Version="3.7.2026.402" />
-    <PackageReference Include="NewLife.Stardust.Extensions" Version="3.7.2026.403" />
+    <PackageReference Include="NewLife.Cube.Core" Version="6.3.2025.101" />
+    <PackageReference Include="NewLife.Redis" Version="6.0.2025.101" />
+    <PackageReference Include="NewLife.Remoting.Extensions" Version="3.2.2025.101" />
+    <PackageReference Include="NewLife.Stardust.Extensions" Version="3.2.2025.101" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,7 +30,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Nodes\View\" />
     <Folder Include="Areas\Projects\Controllers\" />
   </ItemGroup>
 

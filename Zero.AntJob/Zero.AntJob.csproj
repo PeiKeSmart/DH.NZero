@@ -1,13 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <AssemblyTitle>大数据计算</AssemblyTitle>
     <Description>蚂蚁调度系统子程序，编写数据处理等业务逻辑，连接蚂蚁调度中心，拉取作业任务来执行</Description>
-    <Company>湖北登灏科技有限公司</Company>
-    <Copyright>©2020-2025 湖北登灏科技有限公司</Copyright>
-    <VersionPrefix>4.22</VersionPrefix>
+    <Company>新生命开发团队</Company>
+    <Copyright>©2002-2025 NewLife</Copyright>
+    <VersionPrefix>1.0</VersionPrefix>
     <VersionSuffix>$([System.DateTime]::Now.ToString(`yyyy.MMdd`))</VersionSuffix>
     <Version>$(VersionPrefix).$(VersionSuffix)</Version>
     <FileVersion>$(Version)</FileVersion>
@@ -28,11 +28,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="NewLife.AntJob" Version="4.4.2026.310" />
-    <PackageReference Include="NewLife.AntJob.Extensions" Version="4.4.2026.310" />
-    <PackageReference Include="NewLife.Core" Version="11.14.2026.408-beta0823" />
-    <PackageReference Include="NewLife.Redis" Version="6.5.2026.403" />
-    <PackageReference Include="NewLife.XCode" Version="11.25.2026.407-beta0827" />
+    <PackageReference Include="NewLife.AntJob" Version="4.0.2024.1216" />
+    <PackageReference Include="NewLife.AntJob.Extensions" Version="3.4.2024.1216" />
+    <PackageReference Include="NewLife.Core" Version="11.3.2025.101" />
+    <PackageReference Include="NewLife.Redis" Version="6.0.2025.101" />
+    <PackageReference Include="NewLife.XCode" Version="11.17.2025.101" />
   </ItemGroup>
 
   <ItemGroup>

@@ -39,9 +39,7 @@ class MyNetSession : NetSession<MyNetServer>
     /// <param name="e"></param>
     protected override void OnReceive(ReceivedEventArgs e)
     {
-        WriteLog("收到11111：{0}", e.Packet.ToHex());
-
-        //WriteLog("收到：{0}", e.Packet.ToStr());
+        WriteLog("收到：{0}", e.Packet.ToStr());
 
         //todo 这里是业务处理核心，解开数据包e.Packet并进行业务处理
 
