@@ -4,7 +4,7 @@ using NewLife.Remoting.Extensions.Models;
 using NewLife.Remoting.Extensions.Services;
 using NewLife.Remoting.Models;
 using NewLife.Remoting.Services;
-using Zero.Models;
+using Zero.Data.Models;
 
 namespace Zero.WebApi.Services;
 
