@@ -3,11 +3,11 @@
   <PropertyGroup>
     <PackageId>NewLife.Templates</PackageId>
     <Title>新生命模版包</Title>
-    <Authors>新生命团队</Authors>
     <Description>新生命各个开源项目的项目模版包，包括XCode、魔方、星尘、网络库、Agent服务、RPC、MQTT、RocketMQ等</Description>
     <PackageTags>NewLife;新生命;X组件;XCode;Cube;魔方;Stardust;星尘;AntJob;蚂蚁调度;Console;Web;Service;dotnet-new;templates</PackageTags>
-    <PackageProjectUrl>https://newlifex.com</PackageProjectUrl>
-    <VersionPrefix>1.0</VersionPrefix>
+    <Company>湖北登灏科技有限公司</Company>
+    <Copyright>©2020-2025 湖北登灏科技有限公司</Copyright>
+    <VersionPrefix>4.22</VersionPrefix>
     <VersionSuffix>$([System.DateTime]::Now.ToString(`yyyy.MMdd`))</VersionSuffix>
     <PackageVersion>$(VersionPrefix).$(VersionSuffix)</PackageVersion>
     <OutputPath>..\Bin</OutputPath>
