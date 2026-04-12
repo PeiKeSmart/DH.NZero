@@ -1,0 +1,42 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".github/workflows/publish-beta.yml" />
+    <File Path=".github/workflows/publish.yml" />
+    <File Path=".github/workflows/test.yml" />
+    <File Path="LICENSE" />
+    <File Path="NuGet.config" />
+    <File Path="Readme.MD" />
+  </Folder>
+  <Folder Name="/公共/">
+    <Project Path="Zero.Core/Zero.Core.csproj" />
+    <Project Path="Zero.Data/Zero.Data.csproj" />
+  </Folder>
+  <Folder Name="/客户端应用/">
+    <Project Path="Zero.Client/Zero.Client.csproj" />
+    <Project Path="Zero.Desktop/Zero.Desktop.csproj" />
+    <Project Path="Zero.GtkForm/Zero.GtkForm.csproj" />
+    <Project Path="Zero.WebView/Zero.WebView.csproj" />
+  </Folder>
+  <Folder Name="/模板/">
+    <Project Path="NewLife.Templates/NewLife.Templates.csproj" />
+  </Folder>
+  <Folder Name="/现代应用/">
+    <Project Path="Zero.Console/Zero.Console.csproj" />
+    <Project Path="Zero.Web/Zero.Web.csproj" />
+    <Project Path="Zero.WebApi/Zero.WebApi.csproj" />
+    <Project Path="Zero.Worker/Zero.Worker.csproj" />
+  </Folder>
+  <Folder Name="/经典应用/">
+    <Project Path="Zero.Agent/Zero.Agent.csproj" />
+    <Project Path="Zero.Agent2/Zero.Agent2.csproj" />
+    <Project Path="Zero.AntJob/Zero.AntJob.csproj" />
+    <Project Path="Zero.Server/Zero.Server.csproj" />
+  </Folder>
+  <Folder Name="/网络应用/">
+    <Project Path="Zero.HttpServer/Zero.HttpServer.csproj" />
+    <Project Path="Zero.RpcServer/Zero.RpcServer.csproj" />
+    <Project Path="Zero.TcpServer/Zero.TcpServer.csproj" />
+    <Project Path="Zero.WebSocketServer/Zero.WebSocketServer.csproj" />
+  </Folder>
+</Solution>

@@ -3,6 +3,7 @@
   <PropertyGroup>
     <PackageId>NewLife.Templates</PackageId>
     <Title>新生命模版包</Title>
+    <Authors>沛柯智能（PeiKeSmart）</Authors>
     <Description>新生命各个开源项目的项目模版包，包括XCode、魔方、星尘、网络库、Agent服务、RPC、MQTT、RocketMQ等</Description>
     <PackageTags>NewLife;新生命;X组件;XCode;Cube;魔方;Stardust;星尘;AntJob;蚂蚁调度;Console;Web;Service;dotnet-new;templates</PackageTags>
     <Company>湖北登灏科技有限公司</Company>
