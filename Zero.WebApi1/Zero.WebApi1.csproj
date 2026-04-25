@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyTitle>零代接口服务</AssemblyTitle>
+    <Description>可用于移动端对接、第三方集成、数据开放等标准WebApi接口场景，内置Swagger文档</Description>
+    <Company>新生命开发团队</Company>
+    <Copyright>©2002-2026 NewLife</Copyright>
+    <VersionPrefix>1.0</VersionPrefix>
+    <VersionSuffix>$([System.DateTime]::Now.ToString(`yyyy.MMdd`))</VersionSuffix>
+    <Version>$(VersionPrefix).$(VersionSuffix)</Version>
+    <FileVersion>$(Version)</FileVersion>
+    <AssemblyVersion>$(VersionPrefix).*</AssemblyVersion>
+    <Deterministic>false</Deterministic>
+    <OutputPath>..\Bin\WebApi</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GenerateEmbeddedFilesManifest>true</GenerateEmbeddedFilesManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NewLife.Core" Version="11.11.2026.201" />
+    <PackageReference Include="NewLife.Cube" Version="6.9.2026.201" />
+    <PackageReference Include="NewLife.Cube.Swagger" Version="6.9.2026.201" />
+    <PackageReference Include="NewLife.Redis" Version="6.4.2026.201" />
+    <PackageReference Include="NewLife.Redis.Extensions" Version="6.4.2026.201" />
+    <PackageReference Include="NewLife.Remoting.Extensions" Version="3.7.2026.201" />
+    <PackageReference Include="NewLife.Stardust.Extensions" Version="3.7.2026.201" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Zero.Data\Zero.Data.csproj" />
+  </ItemGroup>
+
+</Project>

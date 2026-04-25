@@ -25,6 +25,7 @@
     <Project Path="Zero.Console/Zero.Console.csproj" />
     <Project Path="Zero.Web/Zero.Web.csproj" />
     <Project Path="Zero.WebApi/Zero.WebApi.csproj" />
+    <Project Path="Zero.WebApi1/Zero.WebApi1.csproj" />
     <Project Path="Zero.Worker/Zero.Worker.csproj" />
   </Folder>
   <Folder Name="/经典应用/">
